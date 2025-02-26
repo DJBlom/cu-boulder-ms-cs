@@ -1,13 +1,10 @@
 > # Abstract
 > This study explores the relationship between environmental factors and plant growth stages using Exploratory Data Analysis (EDA) and Machine Learning (ML) models. Through visualizing feature distributions, correlations, and decision boundaries, we analyzed how Sunlight Hours, Temperature, and Humidity influence plant development. A Support Vector Machine (SVM) with an RBF kernel was employed to classify plants into early or mature growth stages, achieving an accuracy of ~51%. The results indicate that while SVM effectively captures nonlinear relationships, misclassifications suggest that additional environmental variables may be necessary for improved accuracy. This analysis provides a foundation for future enhancements, such as incorporating more features, optimizing hyperparameters, or exploring alternative ML models like Random Forest or XGBoost, to create a more robust predictive system for plant growth classification.
 >
-<<<<<<< HEAD
 > # Github Repository Link
 > Here is the link to the Github repository where the Machine Learning script and it's resulting graphs are stored.   
 > [Github repository: https://github.com/DJBlom/cu-boulder-ms-cs](https://github.com/DJBlom/cu-boulder-ms-cs)
 >
-=======
->>>>>>> 29a815387eea6f42e6242df324e96d15cba5ee27
 > # Growth Stage Distribution
 > ## Interpretation:
 > The dataset is balanced, with almost an equal number of samples in both growth stages (early vs. mature). Implication: Since the dataset does not suffer from class imbalance, the model training should not be skewed towards one class.   
@@ -28,7 +25,7 @@
 > 
 > # Feature Distributions
 > ## Interpretation:
->The feature distribution plots provide insight into how Sunlight Hours, Temperature, and Humidity are spread across the dataset. Each feature follows a relatively continuous distribution, with Sunlight Hours peaking around 6-8 hours, Temperature clustering between 20-30°C, and Humidity showing a wider spread but concentrating around 50-70%. These distributions suggest that data preprocessing techniques like standardization were necessary to ensure fair model training. Additionally, the absence of clear bimodal distributions implies that growth stages are not easily separable based on individual features alone, reinforcing the need for a nonlinear model like SVM to capture complex interactions between variables.
+> The feature distribution plots provide insight into how Sunlight Hours, Temperature, and Humidity are spread across the dataset. Each feature follows a relatively continuous distribution, with Sunlight Hours peaking around 6-8 hours, Temperature clustering between 20-30°C, and Humidity showing a wider spread but concentrating around 50-70%. These distributions suggest that data preprocessing techniques like standardization were necessary to ensure fair model training. Additionally, the absence of clear bimodal distributions implies that growth stages are not easily separable based on individual features alone, reinforcing the need for a nonlinear model like SVM to capture complex interactions between variables.
 >
 > ![image](feature_distributions.png)
 > 
