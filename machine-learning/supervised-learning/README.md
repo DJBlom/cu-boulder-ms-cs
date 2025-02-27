@@ -1,5 +1,5 @@
 > # Abstract
-> This study explores the relationship between environmental factors and plant growth stages using Exploratory Data Analysis (EDA) and Machine Learning (ML) models. Through visualizing feature distributions, correlations, and decision boundaries, we analyzed how Sunlight Hours, Temperature, and Humidity influence plant development. A Support Vector Machine (SVM) with an RBF kernel was employed to classify plants into early or mature growth stages, achieving an accuracy of ~51%. The results indicate that while SVM effectively captures nonlinear relationships, misclassifications suggest that additional environmental variables may be necessary for improved accuracy. This analysis provides a foundation for future enhancements, such as incorporating more features, optimizing hyperparameters, or exploring alternative ML models like Random Forest or XGBoost, to create a more robust predictive system for plant growth classification.
+> This study explores the relationship between environmental factors and plant growth stages using Exploratory Data Analysis (EDA) and Machine Learning (ML) models. Through visualizing feature distributions, correlations, and decision boundaries, we analyzed how Sunlight Hours, Temperature, and Humidity influence plant development. A Support Vector Machine (SVM) with an RBF kernel was employed to classify plants into early or mature growth stages, achieving an accuracy of 56%. The results indicate that while SVM effectively captures nonlinear relationships, misclassifications suggest that additional environmental variables may be necessary for improved accuracy. This analysis provides a foundation or future enhancements, such as incorporating more features, optimizing hyperparameters, or exploring alternative ML models like Random Forest or XGBoost, to create a more robust predictive system for plant growth classification.
 >
 > # Github Repository Link
 > Here is the link to the Github repository where the Machine Learning script and it's resulting graphs are stored.   
@@ -51,7 +51,7 @@
 >       6 mature growth samples were wrongly classified as early.    
 > - Implication:     
 >       The model is slightly biased toward predicting the mature stage correctly.     
->       Overall accuracy is around ~51%, meaning improvements can still be made.     
+>       Overall accuracy is around 56%, meaning improvements can still be made.     
 > 
 > # Feature Pairplot (Feature Relationships)
 > ## Interpretation:
@@ -77,7 +77,7 @@
 > ## Findings:
 > This project successfully explored the relationship between environmental factors and plant growth stages using Exploratory Data Analysis (EDA) and Machine Learning (ML) models. The results confirmed that growth stage classification is a nonlinear problem, requiring complex decision boundaries rather than simple linear separations.   
 > 
-> The Support Vector Machine (SVM) with an RBF kernel demonstrated its ability to capture these nonlinear patterns, achieving ~51% accuracy. However, misclassifications indicate that additional features beyond Sunlight, Temperature, and Humidity may be necessary to improve prediction reliability. While SVM proved effective in modeling the dataset, further refinements—such as feature engineering, hyperparameter tuning, or exploring alternative models like Random Forest or XGBoost—could enhance its performance.
+> The Support Vector Machine (SVM) with an RBF kernel demonstrated its ability to capture these nonlinear patterns, achieving 56% accuracy. However, misclassifications indicate that additional features beyond Sunlight, Temperature, and Humidity may be necessary to improve prediction reliability. While SVM proved effective in modeling the dataset, further refinements—such as feature engineering, hyperparameter tuning, or exploring alternative models like Random Forest or XGBoost—could enhance its performance.
 > 
 > Ultimately, this study provided valuable insights into how environmental conditions influence plant growth, laying the groundwork for future improvements. By incorporating richer datasets and more advanced ML techniques, the accuracy and applicability of this predictive model can be significantly strengthened, making it a more powerful tool for agricultural decision-making and automation.    
 > 
